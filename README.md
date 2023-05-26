@@ -8,3 +8,4 @@ after pattern
 during prefix should not trigg
 
 wiht pattern /outputs.tf
+with pattern added /count-null-provider.tf
