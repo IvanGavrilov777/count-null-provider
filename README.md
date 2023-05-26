@@ -6,3 +6,5 @@ asdsa
 123213
 after pattern
 during prefix should not trigg
+
+wiht pattern /outputs.tf
