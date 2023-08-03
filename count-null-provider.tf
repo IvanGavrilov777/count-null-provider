@@ -1,5 +1,5 @@
 variable "condition" {
-  default = false
+  default = true
 }
 resource "null_resource" "screen_output" {
 count = var.condition?1 : 3
