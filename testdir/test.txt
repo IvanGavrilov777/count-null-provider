@@ -1,3 +1,4 @@
 #../testdir/
 #2ri opit 
 #4ti opit peci.yaml - nonexistingg
+#ti opit s posochen fail
