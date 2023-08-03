@@ -2,3 +2,4 @@
 #2ri opit 
 #4ti opit peci.yaml - nonexistingg
 #ti opit s posochen fail
+#patterns peci.yaml - edit na test da vidim
