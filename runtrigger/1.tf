@@ -1,9 +1,9 @@
 #asd1231231231
 resource "null_resource" "screen_output" {
-count = 3
+count = 20961
   provisioner "local-exec" {
     command = <<EOT
-    echo 'Hello-subfolder'
+    echo 'Hello-20961resources'
     EOT
   }
 }
