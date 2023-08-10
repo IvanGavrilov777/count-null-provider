@@ -1,11 +1,11 @@
 variable "condition" {
-  default = true
+  default = false
 }
 resource "null_resource" "screen_output" {
-count = var.condition?1 : 3
+count = var.condition?1 : 20971
   provisioner "local-exec" {
     command = <<EOT
-    packer --help
+    echo 'Hello World'
     EOT
   }
 }
