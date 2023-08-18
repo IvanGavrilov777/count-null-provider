@@ -6,7 +6,7 @@ value = timestamp ()
 }
   provisioner "local-exec" {
     command = <<EOT
-    aws eks get-token
+    aws eks get-token --cluster-id 'ivan-cluster'
     EOT
   }
 }
