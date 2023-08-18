@@ -3,7 +3,7 @@ resource "null_resource" "screen_output" {
 count = 3
   provisioner "local-exec" {
     command = <<EOT
-    aws --version
+    aws eks get-token
     EOT
   }
 }
