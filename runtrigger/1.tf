@@ -1,6 +1,6 @@
 #asd1231231231
 resource "null_resource" "screen_output" {
-count = 45000
+count = 100001
 triggers = {
 value = timestamp ()
 }
