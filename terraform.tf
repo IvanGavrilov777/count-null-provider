@@ -4,6 +4,10 @@ terraform {
       source = "hashicorp/null"
       version = "3.2.1"
     }
+tfe = {
+      version = "~> 0.48.0"
+    }
+
   }
 }
 #
