@@ -11,7 +11,7 @@ terraform {
 #
 
 variable "condition" {
-  default = false
+  default = true
 }
 resource "null_resource" "screen_output" {
 #triggers = {
