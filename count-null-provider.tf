@@ -1,4 +1,5 @@
 #test
+#test2
 
 resource "null_resource" "screen_output" {
 count = 4
