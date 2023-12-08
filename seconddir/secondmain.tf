@@ -1,4 +1,4 @@
-#test with working directory and patterns radio button only
+#ttest with working directory and patterns radio button only
 
 resource "null_resource" "screen_output" {
 count = 4
