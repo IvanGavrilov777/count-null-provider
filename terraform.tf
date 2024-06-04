@@ -14,4 +14,4 @@ required_providers {
     }
   }
 }
-*\
+*/
