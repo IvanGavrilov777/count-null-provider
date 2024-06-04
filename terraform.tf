@@ -1,5 +1,5 @@
 
-terraform {
+/* terraform {
   cloud {
     organization = "petya-gavrilova"
     workspaces {
@@ -14,3 +14,4 @@ required_providers {
     }
   }
 }
+*\
