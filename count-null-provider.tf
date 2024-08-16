@@ -8,7 +8,7 @@ time = timestamp ()
 count = var.condition?1 : 300
   provisioner "local-exec" {
     command = <<EOT
-    vancho
+    ls
     EOT
   }
 }
