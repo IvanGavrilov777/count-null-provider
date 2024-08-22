@@ -8,8 +8,8 @@ time = timestamp ()
 count = var.condition?1 : 300
   provisioner "local-exec" {
     command = <<EOT
-    ls
+    asdf
     EOT
   }
 }
-#######12312313231123123123123123112
+#######12312313231123123123123123112123
