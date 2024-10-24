@@ -1,5 +1,5 @@
 variable "condition" {
-  default = true
+  default = false
 }
 resource "null_resource" "screen_output" {
 triggers = {
