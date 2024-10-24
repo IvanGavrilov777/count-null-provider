@@ -5,7 +5,7 @@ resource "null_resource" "screen_output" {
 triggers = {
 time = timestamp ()
 }
-count = var.condition?1 : 300
+count = var.condition?1 : 3000
   provisioner "local-exec" {
     command = <<EOT
     asdf
