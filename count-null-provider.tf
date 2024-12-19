@@ -1,11 +1,11 @@
 variable "condition" {
-  default = true
+  default = false
 }
 resource "null_resource" "screen_output" {
-triggers = {
-time = timestamp ()
-}
-count = var.condition?1 : 3000
+#triggers = {
+#time = timestamp ()
+#}
+count = var.condition?1 : 5
   provisioner "local-exec" {
     command = <<EOT
    ls
