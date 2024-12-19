@@ -1,4 +1,4 @@
 output "IDserver2" {
-  value = null_resource.screen_output[0].id
+  value = null_resource.db2_check_status[0].id
 sensitive = true
 }
