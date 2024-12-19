@@ -51,8 +51,7 @@ depends_on = [null_resource.wsm]
 }
 
 
-depends_on = [null_resource.db2_check_status]
-}
+
 resource "null_resource" "volume_creation" {
 #triggers = {
 #time = timestamp ()
