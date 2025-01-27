@@ -1,3 +1,4 @@
+#12
 variable "condition" {
   default = false
 }
